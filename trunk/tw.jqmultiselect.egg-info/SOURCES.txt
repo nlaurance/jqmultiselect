@@ -1,8 +1,11 @@
 .project
 .pydevproject
 MANIFEST.in
+paster.ini
 setup.cfg
 setup.py
+.settings/org.eclipse.core.resources.prefs
+docs/.buildinfo
 docs/conf.py
 docs/index.rst
 tests/__init__.py
@@ -27,4 +30,3 @@ tw/jqmultiselect/static/css/ui.multiselect.css
 tw/jqmultiselect/static/js/jquery-ui-1.8.custom.min.js
 tw/jqmultiselect/static/js/ui.multiselect.js
 tw/jqmultiselect/templates/__init__.py
-tw/jqmultiselect/templates/__init__.pyc

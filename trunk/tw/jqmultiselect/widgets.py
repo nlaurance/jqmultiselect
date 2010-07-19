@@ -1,17 +1,16 @@
 from tw.api import Widget, JSLink, CSSLink, js_function
 from tw.jquery import jquery_js
+from tw.jquery.ui import jquery_ui_all_js
 from tw.forms import MultipleSelectField
 
 __all__ = ["Jqmultiselect"]
 
 # declare your static resources here
 
-jquery_ui_js = JSLink(modname=__name__,
-               filename='static/js/jquery-ui-1.8.custom.min.js',
-               javascript=[jquery_js])
+
 jquery_multiselect = JSLink(modname=__name__,
                filename='static/js/ui.multiselect.js',
-               javascript=[jquery_js, jquery_ui_js])
+               javascript=[jquery_js, jquery_ui_all_js])
 
 jquery_ui_css = CSSLink(modname=__name__, filename='static/css/jquery-ui-1.8.2.custom.css')
 multiselect_css = CSSLink(modname=__name__, filename='static/css/ui.multiselect.css')
@@ -19,7 +18,7 @@ multiselect_css = CSSLink(modname=__name__, filename='static/css/ui.multiselect.
 
 class Jqmultiselect(MultipleSelectField):
 
-    javascript = [jquery_ui_js, jquery_multiselect]
+    javascript = [jquery_multiselect]
     css = [jquery_ui_css, multiselect_css]
 
     params = ["sortable", "searchable"]
