@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: tw.jqmultiselect
-Version: 0.1a0dev-20100711
+Version: 0.1
 Summary: multiselection widget
-Home-page: UNKNOWN
+Home-page: http://code.google.com/p/jqmultiselect/
 Author: Nicolas Laurance
-Author-email: UNKNOWN
+Author-email: nicolas.laurance@gmail.com
 License: UNKNOWN
 Description: UNKNOWN
 Keywords: toscawidgets.widgets
