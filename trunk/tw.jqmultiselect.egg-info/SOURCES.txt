@@ -1,6 +1,9 @@
 .project
 .pydevproject
+CHANGES.txt
+Contributors.txt
 MANIFEST.in
+README.txt
 paster.ini
 setup.cfg
 setup.py
@@ -24,9 +27,7 @@ tw/jqmultiselect/__init__.py
 tw/jqmultiselect/release.py
 tw/jqmultiselect/samples.py
 tw/jqmultiselect/widgets.py
-tw/jqmultiselect/static/css/common.css
 tw/jqmultiselect/static/css/jquery-ui-1.8.2.custom.css
 tw/jqmultiselect/static/css/ui.multiselect.css
-tw/jqmultiselect/static/js/jquery-ui-1.8.custom.min.js
 tw/jqmultiselect/static/js/ui.multiselect.js
 tw/jqmultiselect/templates/__init__.py
