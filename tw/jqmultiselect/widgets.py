@@ -20,6 +20,7 @@ class Jqmultiselect(MultipleSelectField):
 
     javascript = [jquery_multiselect]
     css = [jquery_ui_css, multiselect_css]
+#    css = [multiselect_css]
 
     params = ["sortable", "searchable"]
     sortable = True
