@@ -12,14 +12,14 @@ jquery_multiselect = JSLink(modname=__name__,
                filename='static/js/ui.multiselect.js',
                javascript=[jquery_js, jquery_ui_all_js])
 
-jquery_ui_css = CSSLink(modname=__name__, filename='static/css/jquery-ui-1.8.2.custom.css')
+from tw.uitheme import smoothness_css
 multiselect_css = CSSLink(modname=__name__, filename='static/css/ui.multiselect.css')
 
 
 class Jqmultiselect(MultipleSelectField):
 
     javascript = [jquery_multiselect]
-    css = [jquery_ui_css, multiselect_css]
+    css = [smoothness_css, multiselect_css]
 #    css = [multiselect_css]
 
     params = ["sortable", "searchable"]

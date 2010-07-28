@@ -37,6 +37,7 @@ setup(
     install_requires=[
         "ToscaWidgets",
         "tw.jquery",
+        "tw.uitheme",
         ## Add other requirements here
         # "Genshi",
         ],
